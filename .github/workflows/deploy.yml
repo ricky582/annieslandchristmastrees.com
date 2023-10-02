@@ -18,7 +18,7 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          passphrase: ${{ secrets.PASSWORD }}
           script: |
             pwd
             whoami
