@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           passphrase: ${{ secrets.PASSWORD }}
           script: |
-            pwd
-            whoami
+            su anniesland
+            deploy
