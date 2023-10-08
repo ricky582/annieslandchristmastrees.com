@@ -6,20 +6,20 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
 
-  /* Class specific colours (e.g. --class1-rgb, --class1-border-rgb) */
+  --background-rgb: 21, 56, 20;
+  --background-dark-rgb: 15, 42, 14;
 
+  /* Class specific colours */
+
+  /* Navbar */
+  --topbar-drop-shadow-rgb: 15, 42, 14;
 }
 
 /* Global Variables (Dark Mode Specific) */
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
 
     /* Class specific colours (e.g. --class1-rgb, --class1-border-rgb) */
 
@@ -40,12 +40,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb));
 }
 
 a {
