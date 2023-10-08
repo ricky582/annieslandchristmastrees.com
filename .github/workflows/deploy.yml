@@ -21,4 +21,4 @@ jobs:
           passphrase: ${{ secrets.PASSWORD }}
           script: |
             su anniesland
-            deploy
+            /home/anniesland/prod/deploy.sh
