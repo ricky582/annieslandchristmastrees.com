@@ -15,7 +15,10 @@ export default function Navbar() {
 
           <a href="https://www.instagram.com/annieslandchristmastrees/" target="_blank"><Image src={instagram} alt="Instagram Logo" className={styles.logo} /></a>
           <a href="https://www.facebook.com/Annieslandchristmastrees/" target="_blank"><Image src={facebook} alt="Facebook Logo" className={styles.logo} /></a>
-          <p>+44 7936 372761</p>
+          <div>
+            <p>+44 7936 372761</p>
+            <p>+44 7710 441771</p>
+          </div>
         </div>
       </div>
     )
